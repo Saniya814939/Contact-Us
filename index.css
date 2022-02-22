@@ -1,0 +1,38 @@
+.container{
+    background-image: url(Images/img-03.jpg);
+    background-repeat: no-repeat ;
+    padding: 40px 0;
+    background-size: cover;
+}
+.container h1{
+    text-align: center;
+    color: wheat;
+}
+.contact-form{
+   max-width: 600px; 
+   margin: auto;
+   padding: 0 10px;
+   overflow: hidden;
+}
+
+.contact-for-text{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 16px 0;
+    background: #111;
+    padding: 20px 40px;
+    outline: none;
+    color: #ddd;
+}
+.contact-form-btn{
+    float:right;
+    background-color: silver;
+    border-radius: 20px;
+    padding: 12px 50px;
+    cursor: pointer;
+
+}
+.contact-form-btn:hover{
+    background-color: red;
+}
